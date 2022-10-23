@@ -71,7 +71,7 @@ const Home = () => {
                         </svg>
 
                       </div>
-                      <Link className='font-bold' to='/about'>About Us</Link>
+                      <Link className='font-bold' to='/about'>About </Link>
                     </div>
                   </div>
                 </div>

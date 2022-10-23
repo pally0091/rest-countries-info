@@ -3,7 +3,7 @@ import React from 'react';
 const Country = (props) => {
     const {flags, name, capital, region, population}= props.country
     return (
-        <div className='w-[30%] text-center border-2 border-white p-3 mx-auto mt-4 shadow-md shadow-black'>
+        <div className='w-[30%] text-center border-2 border-white rounded-lg p-3 mx-auto mt-4 shadow-md shadow-black'>
             <div className='w-full h-48 shadow-md mb-3 shadow-black'>
                 <img className='h-full w-full' src={flags.png}/>
             </div>
