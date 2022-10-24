@@ -10,7 +10,7 @@ const Countries = () => {
          .then(data => setCountries(data));
     }, [])
     return (
-        <div className='flex flex-wrap mx-auto w-full mt-3'>
+        <div className='lg:flex lg:flex-wrap mx-auto w-full mt-3'>
             {
                 countries.map(country => <Country
                     key={country.ccn3}
