@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 
 
 function About() {
@@ -21,11 +21,11 @@ function About() {
 					<p className="pt-8 text-sm">Totally optional short description about yourself, what you do and so on.</p>
 
 
-					<div className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
+					<div className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-evenly">
 
-						<Link href='' target='_blank'>Facebook</Link>
-						<Link href='' target='_blank'>GitHub</Link>
-						<Link gref='' target='_blank'>LinkedIn</Link>
+						<a href='https://www.facebook.com/frabbi91' target='_blank' rel="noreferrer"><BsFacebook></BsFacebook></a>
+						<a href='https://github.com/pally0091' target='_blank' rel="noreferrer"><BsGithub></BsGithub></a>
+						<a href='https://www.linkedin.com/in/debashis-roy-659ba91ba/' target='_blank' rel="noreferrer"><BsLinkedin></BsLinkedin></a>
 					</div>
 
 
