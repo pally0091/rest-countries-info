@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
+import { Typewriter } from 'react-simple-typewriter'
 
 
 function About() {
@@ -16,9 +17,20 @@ function About() {
 
 					<h1 className="text-3xl font-bold pt-8 lg:pt-0">Debashis Roy</h1>
 					<div className="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
-					<p className="pt-4 text-base font-bold flex items-center justify-center lg:justify-start"> What you do</p>
-
-					<p className="pt-8 text-sm">Totally optional short description about yourself, what you do and so on.</p>
+					<p className='text-red-700 font-bold'>
+						<Typewriter
+							words = {['Web Design', 'Responsive website', 'HTML and CSS', 'JavaScript', 'React with router dom', 'Graphics Editing']}
+							loop ={5}
+							cursor
+							cursorStyle='_'
+							typeSpeed={70}
+							delaySpeed={80}
+							deleteSpeed={1500}
+						></Typewriter>
+					</p>
+					<p className="pt-8 text-sm">👀 I’m interested in Web design and devolopment.<br></br>
+						🌱 I’m currently learning React,<br></br>
+					💞️ I’m looking to collaborate on anythings related.</p>
 
 
 					<div className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-evenly">

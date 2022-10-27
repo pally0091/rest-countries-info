@@ -7,7 +7,7 @@ const Country = (props) => {
             <div className='w-1/2 lg:h-48 sm:h-52 shadow-md mb-3 shadow-black'>
                 <img className='h-full w-full ' src={flags.png}/>
             </div>
-            <div className='w-1/2'>
+            <div className='w-1/2 p-3'>
                 <h3 className='font-bold text-2xl'>{name.common}</h3>
                 <h5 className='text-lg font-bold'>Official Name: {name.official}</h5>
                 <p>Capital: {capital}</p>
